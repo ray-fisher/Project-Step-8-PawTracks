@@ -1,0 +1,57 @@
+﻿body {
+    background: -webkit-linear-gradient(-50deg, #d9e6f2, #8cb3d9);
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.navigation li {
+    display: inline-block;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 1px;
+    padding: 2px;
+}
+
+    .navigation li:hover {
+        color: darkslategrey;
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+#banner {
+    background-image: 
+        url("https://images.pexels.com/photos/4555468/pexels-photo-4555468.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 700px;
+    width: 100%;
+
+}
+
+    #banner .content h1 {
+        border: 2px solid darkslategrey;
+        position: relative;
+        color: darkslategrey;
+        top: 50px;
+        width: 400px;
+        margin: 0 auto;
+    }
+
+p {
+    color: darkslategrey !important;
+}
+
+h1 {
+    color: darkslategrey;
+    text-align: center;
+    
+}
